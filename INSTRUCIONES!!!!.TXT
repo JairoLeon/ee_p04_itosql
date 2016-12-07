@@ -1,0 +1,27 @@
+PROJECT TITLE:Simulador de Base de Datos(Proyecto)
+PURPOSE OF PROJECT:
+VERSION or DATE:1.0
+HOW TO START THIS PROJECT:
+AUTHORS:Olivera Leon Saul Jairo
+USER INSTRUCTIONS:
+
+Para correr el proyecto hay que ejecutar el metodo main de la clase BaseDeDatos y para implementar los metodos de ordenancion
+ejecutar el metodo main de la clase Fila;
+
+Basicamente el proyecto contiene la clase Tabla:
+esta clase contiene dos listas;una para almacenar el nombre de las columnas y la otra para almacenar los datos de la tabla;
+1.Se crean tablas con diferente tamaño de datos y numero de columnas(Personas,Estudiantes,Carros,Materias), cada una con diferentes
+datos y columnas.
+2.Una vez creadas las tablas se agregan a la Clase BaseDeDatos que contiene una lista de tablas;
+3.-Selecionamos una tabla en especifico y la ordenamos implementando los metodos de ordenacion para despues mostrar el resultado.
+3.1 para ordenar la tabla deseada: Recorremos su lista de datos y los ingresamos en un arreglo, una vez ingresados con la ayuda de el numero
+de columnas y de datos podemos saber cuantas instancias hay dentro de la lista.Creamos un arreglo de la clase Fila[] y dentro de este almacenamos
+las instancias o "filas" de la tabla seleccionada.
+3.2 Una vez lleno el arreglo Fila[] filas; lo ordenamos con cada metodo de ordenacion;
+4.0 ya que el arreglo esta ordenado solo queda regresarlo a la lista original y mostrarlo en pantalla.
+Toda la memoria utilizada es dinamica, apoyada de listas ligadas y parametros elipsis
+
+La implementacion de la interfaz grafica no esta terminada :(
+
+
+ 
